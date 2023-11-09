@@ -1,0 +1,10 @@
+.hover-container:hover + .on-hover , .on-hover:hover{
+  opacity: 1;
+  cursor: text;
+}
+
+.on-hover {
+  opacity: 0;
+  transition: 1s;
+  cursor: default;
+}

@@ -8,7 +8,7 @@ const Banner = () => {
 			<div className="w-full h-full text-white absolute z-[3] text-center inset-0 flex flex-col justify-center items-center gap-5">
 				<h1 className="font-inter font-extrabold text-5xl sm:text-6xl tracking-wide">FORUM SAINS & TEKNOLOGI</h1>
 				<h2 className="font-inter text-4xl">SMK NEGERI 1 CIMAHI</h2>
-				<Button className="bg-white py-4 w-[200px] rounded-full text-primary shadow hover:shadow-md transition duration-0.5 hover:shadow-primary shadow-primary font-bold">Read More...</Button>
+				<Button className="bg-white py-4 w-[200px] rounded-full text-primary shadow hover:shadow-md transition duration-0.5 hover:shadow-primary shadow-primary font-bold">Selengkapnya...</Button>
 			</div>
 		</div>
 	)

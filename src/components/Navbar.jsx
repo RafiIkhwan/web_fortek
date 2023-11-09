@@ -9,20 +9,23 @@ const Navbar = () => {
 					<div className="text-xs sm:text-sm flex justify-between items-center px-2 pr-4 py-2">
 						<div className="flex font-medium items-center gap-2">
 							<img className="w-8 rounded-full" src={Fortek} alt="" />
-							<p>FORTEK</p>
+							<p className="font-bold">FORTEK</p>
 						</div>
 						<ul className="gap-2 flex font-medium items-center sm:gap-4">
 							<li>
-								<Link href="#home">Home</Link>
+								<Link href="#home">Beranda</Link>
 							</li>
 							<li>
-								<Link href="#about">About Us</Link>
+								<Link href="#about">Tentang</Link>
 							</li>
 							<li>
-								<Link href="#history">History</Link>
+								<Link href="#history">Sejarah</Link>
 							</li>
 							<li>
-								<Link href="#contact">Contact</Link>
+								<Link href="#join">Join</Link>
+							</li>
+							<li>
+								<Link href="#contact">Kontak</Link>
 							</li>
 						</ul>
 					</div>

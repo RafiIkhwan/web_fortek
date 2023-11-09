@@ -4,7 +4,7 @@ import Fortek from "../assets/images/icon/Logopng_fortek.png"
 
 const Footer = () => {
 	return (
-		<footer className="bg-dark h-max-auto">
+		<footer id="contact" className="bg-dark h-max-auto">
 			<div className="mx-auto w-full max-w-screen-xl py-6 lg:py-8">
 				<div className="flex justify-between flex-col">
 					<div className="mb-6 md:mb-0 flex flex-row mx-4 sm:mx-0">
