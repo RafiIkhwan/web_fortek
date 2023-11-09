@@ -5,18 +5,18 @@ import Fortek from "../assets/images/icon/Logopng_fortek.png"
 const Footer = () => {
 	return (
 		<footer className="bg-dark h-max-auto">
-			<div className="mx-auto w-full max-w-screen-xl  mp-4 py-6 lg:py-8">
+			<div className="mx-auto w-full max-w-screen-xl py-6 lg:py-8">
 				<div className="flex justify-between flex-col">
-					<div className="mb-6 md:mb-0 flex flex-row">
+					<div className="mb-6 md:mb-0 flex flex-row mx-4 sm:mx-0">
 						<a href="#top">
 							<img src={Fortek} className="h-20 mr-3" />
 						</a>
 						<div className="flex items flex-col font-poppins my-2">
-							<p className="text-xl whitespace-nowrap text-white mb-3">FORTEK</p>
-							<p className="text-xl whitespace-nowrap text-white">SMKN 1 CIMAHI</p>
+							<p className="text-lg sm:text-xl whitespace-nowrap text-white mb-3">FORTEK</p>
+							<p className="text-lg sm:text-xl whitespace-nowrap text-white">SMKN 1 CIMAHI</p>
 						</div>
 					</div>
-					<div className="flex justify-center items-center gap-x-32 font-poppins text-white mt-16 text-center">
+					<div className="flex justify-center items-center gap-x-5 sm:gap-x-32 font-poppins text-white mt-16 text-center text-sm sm:text-base">
 						<Link href="http://instagram.com">
 							<Instagram />
 							<span>Instagram</span>
